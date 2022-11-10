@@ -1,5 +1,5 @@
 FROM openjdk
-WORKDIR /app
+WORKDIR /applications
 COPY test.java .
 
 RUN javac test.java
