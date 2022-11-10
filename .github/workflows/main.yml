@@ -11,5 +11,5 @@ jobs:
       - name: "test"
         run: pwd
 
-      - name: "print name"
-        run: echo youssef
+      - name: "login to Docker hub"
+        run: docker login --username youssefelaalem --password dckr_pat_zanoYG-VpZTtcLoIU3w-ME67_1Q
