@@ -3,18 +3,13 @@ on:
     branches:
       - master
 
-
-
 jobs:
-  build: runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-  steps:
-   - name: 'test'
-     run: pwd
-     
-      - name: 'print name'
-     run: echo youssef
+    steps:
+      - name: "test"
+        run: pwd
 
-
-
-
+      - name: "print name"
+        run: echo youssef
