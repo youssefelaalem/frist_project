@@ -12,7 +12,7 @@ jobs:
         run: docker login --username ${{secrets.DOCKER_USERNAME}} --password ${{secrets.DOCKER_TOKEN}}
 
       - name: "build image"
-        run: docker build -t youssefelaalem/test .
+        run: docker build -t test .
 
       - name: "pushing to docker hub"
         run: docker push youssefelaalem/test
